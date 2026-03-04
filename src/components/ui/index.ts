@@ -167,3 +167,9 @@ export type { PieChartProps, PieChartDataPoint } from './charts/pie-chart'
 
 export { Sparkline } from './charts/sparkline'
 export type { SparklineProps } from './charts/sparkline'
+
+// ============================================
+// AI / CHAT
+// ============================================
+export { AIChat, ChatBubble, ChatInput, TypingIndicator } from './ai-chat'
+export type { AIChatProps, ChatMessage, ChatBubbleProps, ChatInputProps } from './ai-chat'
