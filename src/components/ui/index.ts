@@ -150,6 +150,9 @@ export type { CommandProps, CommandGroupProps, CommandItemProps } from './comman
 export { Tooltip } from './tooltip'
 export type { TooltipProps } from './tooltip'
 
+export { Calendar } from './calendar'
+export type { CalendarProps } from './calendar'
+
 // ============================================
 // CHARTS
 // ============================================
