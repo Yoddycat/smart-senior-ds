@@ -149,3 +149,18 @@ export type { CommandProps, CommandGroupProps, CommandItemProps } from './comman
 // ============================================
 export { Tooltip } from './tooltip'
 export type { TooltipProps } from './tooltip'
+
+// ============================================
+// CHARTS
+// ============================================
+export { BarChart } from './charts/bar-chart'
+export type { BarChartProps, BarChartDataPoint } from './charts/bar-chart'
+
+export { LineChart } from './charts/line-chart'
+export type { LineChartProps, LineChartSeries, LineChartDataPoint } from './charts/line-chart'
+
+export { PieChart, DonutChart } from './charts/pie-chart'
+export type { PieChartProps, PieChartDataPoint } from './charts/pie-chart'
+
+export { Sparkline } from './charts/sparkline'
+export type { SparklineProps } from './charts/sparkline'
