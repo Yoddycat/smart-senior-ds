@@ -8,8 +8,10 @@
  * - Light/Dark mode with [data-theme] selector
  * - WCAG 2.2 AA compliant focus states
  * - Senior-optimized typography (larger base sizes)
+ * - Inter Variable font for optimal screen readability
  */
 
+@import "@fontsource-variable/inter";
 @import "tailwindcss";
 
 /* =============================================================================
@@ -45,9 +47,10 @@
   --color-black: oklch(0.0 0 0);
 
   /* === TYPOGRAPHY === */
-  --font-family-heading: 'Gotham', 'Gotham Narrow', 'Gotham Condensed', system-ui, sans-serif;
-  --font-family-body: 'Proxima Nova', 'Figtree', 'Barlow', system-ui, sans-serif;
-  --font-family-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-family-inter: 'Inter Variable', 'Inter', system-ui, sans-serif;
+  --font-family-heading: var(--font-family-inter);
+  --font-family-body: var(--font-family-inter);
+  --font-family-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
 
   /* Font sizes (senior-optimized: larger base) */
   --font-size-xs: 14px;

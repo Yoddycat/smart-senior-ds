@@ -173,3 +173,30 @@ export type { SparklineProps } from './charts/sparkline'
 // ============================================
 export { AIChat, ChatBubble, ChatInput, TypingIndicator } from './ai-chat'
 export type { AIChatProps, ChatMessage, ChatBubbleProps, ChatInputProps } from './ai-chat'
+
+// ============================================
+// TYPOGRAPHY
+// ============================================
+export {
+  Typography,
+  Heading,
+  Text,
+  Label,
+  Caption,
+  Highlight,
+  Blockquote,
+  GradientText,
+  Prose,
+  typographyVariants,
+} from './typography'
+export type {
+  TypographyProps,
+  HeadingProps,
+  TextProps,
+  LabelProps,
+  CaptionProps,
+  HighlightProps,
+  BlockquoteProps,
+  GradientTextProps,
+  ProseProps,
+} from './typography'
